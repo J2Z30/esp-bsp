@@ -4,5 +4,6 @@ url: https://github.com/espressif/esp-bsp/tree/master/components/esp_lvgl_port
 dependencies:
   idf: ">=5.1"
   lvgl/lvgl:
-    version: ">=8,<10"
+    git: https://github.com/J2Z30/lvgl.git
+    version: feat/feat_sdk_rel_v9.3_lvgl
     public: true
